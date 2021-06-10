@@ -1,0 +1,38 @@
+[
+    {
+        "id":"001",
+        "content":"Je recommande aussi les yeux fermés. Je fais de la danse et depuis les séances, je suis presque capable de faire le grand écart ; mon enseignante a été impressionnée des progrès et de la souplesse acquise. Mon dos est plus droit également. Une de mes jambes était très en dedans, elle a gagné en en dehors. De plus, Christophe a réglé d'autres soucis que j'avais et traînais depuis de nombreuses années.",
+        "stars":"5",
+        "name":"P. Alexia"
+    },
+    {
+        "id":"002",
+        "content":"Christophe m'a permis de guérir d'une blessure à l'épaule dont je ne pensais jamais pouvoir me remettre. À chaque fin de séance je ressens déjà les bienfaits du travail effectué. Je suis ainsi convaincue que Christophe est un très bon practicien, je le recommande les yeux fermés ! Merci pour tout",
+        "stars":"5",
+        "name":"Sabine Butler"
+    },
+    {
+        "id":"003",
+        "content":"C'est un ostéopathe que je peux recommander les yeux fermés car il a un très belle approche, à l'écoute de ses patients et surtout a réglé mes problèmes !",
+        "stars":"5",
+        "name":"Vamida"
+    },
+    {
+        "id":"004",
+        "content":"Christophe est un véritable magicien. Extrêmement compétent et professionnel, il m'a réparé avec tact et doigté au fil des années. Cheville, épaule, dos, nuque... Chaque fois que j'ai une douleur, c'est vers lui que je me tourne et je ne suis jamais déçu. Sans doute un des meilleurs ostéopathes à Montréal.",
+        "stars":"5",
+        "name":"David Bourguet"
+    },
+    {
+        "id":"005",
+        "content":"Ostéopathe très professionnel, grande écoute, efficace et rassurant quand on en a besoin",
+        "stars":"5",
+        "name":"Monique St-Amant"
+    },
+    {
+        "id":"006",
+        "content":"Christophe helped me resolve issues I’ve had for years regarding my back/shoulders/neck and hips. His space is comfortable and clean and his comprehensive approach enabled longstanding relief. I recommend him every chance I have.",
+        "stars":"5",
+        "name":"Claire Charriaud"
+    }
+]

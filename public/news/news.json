@@ -1,0 +1,50 @@
+[
+    {
+        "id":"3",
+        "image_link" :"../../public/assets/fleur-lys-quebec.svg",
+        "fr": {
+            "title": "Application obligatoire des taxes (TPS/TVQ) aux services d'ostéopathie",
+            "date" : "05/10/2020",
+            "content" : "Chères patientes, chers patients,\n\nSuivant les nouvelles obligations de l’Agence du revenu du Canada, notre association professionnelle nous informe que tous les ostéopathes doivent dorénavant appliquer les taxes sur les consultations ostéopathiques.\n\nNous devons donc ajouter les taxes à nos tarifs habituels de consultations.\n\nMerci de votre compréhension!",
+            "slug" : "application-obligatoire-des-taxes-aux-services-d-osteopathie"
+        },
+        "en":{
+            "title": "Mandatory application of taxes (GST/QST) to osteopathy services",
+            "date" : "2020/10/05",
+            "content":"Dear patients, \n\nUnder the new obligations of the Canada Revenue Agency, our professional association informs us that all osteopaths must now apply taxes on osteopathic consultations.\n\nWe must therefore add taxes to our usual consultation rates.\n\nThank you for understanding",
+            "slug" : "mandatory-application-of-taxes-to-osteopathy-services"
+        }
+    },
+    {
+        "id":"2",
+        "image_link" :"../../public/assets/mesure-de-securite.png",
+        "fr": {
+            "title": "Reprise des activités d’ostéopathie",
+            "date" : "24/05/2020",
+            "content" : "La reprise des activités d’ostéopathie est autorisée à partir du 1er juin 2020 et assortie de différentes mesures.\nVoici le protocole recommandé par Ostéopathie Québec et élaboré à partir des recommandations de l’INSPQ .\nMesures à respecter par le patient :\n \t-Port d’un masque maison ou de procédure obligatoire (sauf enfant de moins de 2 ans).\n\t-Lavage des mains obligatoire, pendant 20 secondes, à la salle de bain ou avec le gel hydroalcoolique mis à disposition dans la salle d’attente.\n\t-Arrivée à l’heure prévue, afin de permettre la mise en place des mesures de désinfection strictes.\n\t-Lavage des mains obligatoire en quittant le bureau.\n\t-Clientèle adulte : non accompagnée.\n\t-Clientèle pédiatrique : accompagnée d’un seul parent.\n\t-Paiement par virement Interac uniquement.\n\t \n\tMesures à respecter par l’ostéopathe :\n\t-Port d’un sarrau par client et d’un masque de procédure jetable.\n\t-Désinfection de l’espace de travail et des surfaces touchées, avant et après le traitement.\n\t-Organisation de l’espace de travail et d’accueil (porte n'ouvrant que sur l’extérieur, aire d’attente extérieure si possible, aucun objet manipulable dans l’aire d’attente, espace de lavage des mains avec papier jetable, poubelle sans contact, gel hydroalcoolique).\n\t-Envoi d’un reçu au format électronique dès réception du paiement.\n\t-Respect strict de l’horaire prévu et de la durée du traitement.\n\t\nDe plus, vous ne devez pas vous présenter à votre rendez-vous si vous avez des symptômes de la COVID-19 et/ou faites l’objet d’un isolement (contact d’un cas confirmé, retour de voyage à l’étranger ou cas de COVID-19). Si c'est le cas, merci de m’informer par téléphone de votre annulation (aucun frais ne sera appliqué).\n\nEnsemble, protégeons-nous!",
+            "slug" : "reprise-des-activites-d-osteopathie"
+        },
+        "en":{
+            "title": "Resumption of osteopathic activity",
+            "date" : "2020/05/24",  
+            "content":"The resumption of osteopathic activities is authorized from June 1, 2020 alongside various measures.\nThis is the protocol recommended by Osteopathie Québec and developed based on the recommendations from the INSPQ . \nMeasures to be followed by the patient: \n \t-Wearing a homemade/surgical mask (except children under 2). \n \t-Hand washing required, for 20 seconds, in the bathroom or with the sanitizing gel available in the waiting room. \n \t-Arrival at the scheduled time, to allow the implementation of strict disinfection measures. \n \t-Mandatory hand washing when leaving the office. \n \t-Adult patients: unaccompanied. \n \t-Pediatric clients: accompanied by only one parent. \n \t-Interac e-Transfer payment only. \n \nMeasures to be followed by the osteopath: \n \t-Wearing one lab coat and one disposable procedure mask per client. \n \t-Disinfection of workspace and affected surfaces, before and after the treatment. \n \t-Organization of the work and reception area (door opening only on the outside, external waiting area if possible, no manipulable objects in the waiting area, hand washing areas with disposable paper, non-contact waste bin, sanitizing gel). \n \t-Sending a receipt in electronic format upon receipt of payment. \n \t-Strict following to the schedule and duration of processing. \n \t \t \nIn addition, you should not come to your appointment if you have symptoms of COVID-19 and/or are in isolation (contact with a confirmed case, return from international travel or COVID-19). If this is the case, please inform me by phone about your cancellation (no fee will be applied). \n \nLet’s protect ourselves together!",
+            "slug" : "resumption-of-osteopathic-activity"
+        }
+    },
+    {
+        "id":"1",
+        "image_link" :"../../public/assets/stay-home.jpeg",
+        "fr":{
+            "title": "Concernant le COVID-19",
+            "date" : "16/03/2020",
+            "content" : "Ma Priorité actuelle est de protéger la santé, le bien-être et la sécurité de mes clientes et clients, ainsi que celle de notre communauté.\n\nIl est de notre responsabilité à tous de réduire l'évolution du COVID-19. C'est pourquoi j'ai pris la décision de suspendre temporairement mes services.\n\nJ'ai bien hâte de vous retrouver. En attendant, j'aimerais vous remercier de votre compréhension pendant cette période difficile.",
+            "slug":"concernant-le-covid-19" 
+        },
+        "en":{
+            "title": "About COVID-19",
+            "date" : "2020/03/16",
+            "content":"My current priority is to protect the health, well-being and safety of my clients and our community. \n \nIt is everyone’s responsibility to reduce the evolution of COVID-19. That is why I made the decision to temporarily suspend my services. \n \nI look forward to seeing you again. In the meantime, I would like to thank you for your understanding during this difficult time.",
+            "slug" : "about-covid-19"
+        }
+    }
+]
