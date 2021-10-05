@@ -37,9 +37,8 @@
 # pull from registry 
     docker pull registry.loutre.me/clinique-roland-2:latest
 # Stop current container
-    docker stop clinique-rolnad
+    docker stop clinique-roland
 # Remove current container
     docker rm clinique-roland
-# Launch new version
-    cd /home/ubuntu/nextcloud-container 
+# Launch new version 
     docker-compose up -d
