@@ -22,6 +22,6 @@
 </script>
 
 <style lang="scss">
-  @import "../../public/css/style.scss";
-  @import "../../public/css/variables.scss";
+  @import "../content/css/style.scss";
+  @import "../content/css/variables.scss";
 </style>

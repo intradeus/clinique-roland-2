@@ -7,7 +7,7 @@
         <h4 class="content mb-3">{{ $t('tuto.subtitle1') }}</h4>
         <div class="container text-center">
           <video class="mb-5" controls>
-                        <source src="../../public/assets/tutorial/tutorial-first-time.mp4" type="video/mp4">
+                        <source src="../content/assets/tutorial/tutorial-first-time.mp4" type="video/mp4">
                         Your browser does not support the video tag.
           </video>
         </div>
@@ -15,7 +15,7 @@
         <h4 class="content mb-3">{{ $t('tuto.subtitle2') }}</h4>
         <div class="text-center">
           <video class="mb-5" controls>
-                        <source src="../../public/assets/tutorial/tutorial-sign-in.mp4" type="video/mp4">
+                        <source src="../content/assets/tutorial/tutorial-sign-in.mp4" type="video/mp4">
                         Your browser does not support the video tag.
           </video>
         </div>
@@ -37,7 +37,7 @@
   .parallax {
   min-height: 200px;
   &.banner2 {
-    background-image: url("../../public/assets/banner1.jpg");
+    background-image: url("../content/assets/banner1.jpg");
     height: 200px;
   }
 }

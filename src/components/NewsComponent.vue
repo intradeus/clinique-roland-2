@@ -15,7 +15,7 @@
                 <div class="col-md-3 col-xs-3 text-center news-image-container">
                   <img
                     class="news-image"
-                    :src="dataNew.image_link"
+                    :src="'src/content/assets/' + dataNew.image_file_name"
                     alt="news image"
                   />
                 </div>
@@ -35,8 +35,8 @@
 </template>
 
 <script>
-import jsonNews from "../../../public/news/news.json";
-import EventBus from '../../eventBus';
+import jsonNews from "../content/news/news.json";
+import EventBus from '../eventBus';
 
 export default {
   data() {
@@ -61,7 +61,7 @@ export default {
       jsonNews.forEach(n => {
       context.news.push({
         id : n.id,
-        image_link : n.image_link,
+        image_file_name : n.image_file_name,
         title : eval('n.'+ lang + '.title'),
         date: eval('n.'+ lang + '.date'),
         content : eval('n.'+ lang + '.content'),
@@ -73,8 +73,8 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@import "../../../public/css/style.scss";
-@import "../../../public/css/variables.scss";
+@import "../content/css/style.scss";
+@import "../content/css/variables.scss";
 
 .h3-news {
   color: #7b6572;

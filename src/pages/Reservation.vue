@@ -45,9 +45,9 @@
     methods: {
       getPrivacyPolicy: function(){
             if(general.getCookie("site-lang") == "fr"){
-                return "../../public/documents/Politique_de_Confidentialité-Clinique_Roland.pdf";
+                return "../content/documents/Politique_de_Confidentialité-Clinique_Roland.pdf";
             }else {
-                return "../../public/documents/Privacy_Policy-Clinique_Roland.pdf";
+                return "../content/documents/Privacy_Policy-Clinique_Roland.pdf";
             }
       },
       hideSpinnerShowScript: function(){
@@ -62,13 +62,13 @@
   
 </script>
 <style lang="scss" scoped >
-@import "../../public/css/style.scss";
-@import "../../public/css/variables.scss";
+@import "../content/css/style.scss";
+@import "../content/css/variables.scss";
 
 .parallax {
   min-height: 200px;
   &.banner2 {
-    background-image: url("../../public/assets/banner1.jpg");
+    background-image: url("../content/assets/banner1.jpg");
     height: 200px;
   }
 }

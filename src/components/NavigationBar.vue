@@ -112,8 +112,8 @@
 </script>
 
 <style lang="scss" scoped>
- @import "../../public/css/variables.scss";
-  @import "../../public/css/style.scss";
+ @import "../content/css/variables.scss";
+  @import "../content/css/style.scss";
 
   a {
     color: #282828;

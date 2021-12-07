@@ -53,7 +53,7 @@
 </template>
 
 <script>
-import jsonFeedbacks from "../../../public/feedback/feedback.json";
+import jsonFeedbacks from "../content/feedback/feedback.json";
 
 export default {
   data() {
@@ -74,8 +74,8 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@import "../../../public/css/style.scss";
-@import "../../../public/css/variables.scss";
+@import "../content/css/style.scss";
+@import "../content/css/variables.scss";
 
 .feedback {
   padding: 60px 0px;

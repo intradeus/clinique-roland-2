@@ -105,7 +105,7 @@ export default {
 .parallax {
   min-height: 200px;
   &.banner2 {
-    background-image: url("../../public/assets/banner1.jpg");
+    background-image: url("../content/assets/banner1.jpg");
     height: 200px;
   }
 }

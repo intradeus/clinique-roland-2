@@ -48,9 +48,9 @@
 
 <script>
 import MainLayout from "../layouts/Main.vue";
-import FeedbackComponent from "../components/Homepage/FeedbackComponent.vue";
-import NewsComponent from "../components/Homepage/NewsComponent.vue";
-import jsonFeedbacks from "../../public/feedback/feedback.json";
+import FeedbackComponent from "../components/FeedbackComponent.vue";
+import NewsComponent from "../components/NewsComponent.vue";
+import jsonFeedbacks from "../content/feedback/feedback.json";
 
 export default {
   components: {
@@ -86,8 +86,8 @@ export default {
 
 
 <style lang="scss" scoped>
-@import "../../public/css/style.scss";
-@import "../../public/css/variables.scss";
+@import "../content/css/style.scss";
+@import "../content/css/variables.scss";
 
 hr{
   margin:0;
@@ -190,7 +190,7 @@ a {
 
 .parallax {
   &.banner2 {
-    background-image: url("../../public/assets/banner2.jpg");
+    background-image: url("../content/assets/banner2.jpg");
   }
 }
 

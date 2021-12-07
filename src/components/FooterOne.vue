@@ -8,7 +8,7 @@
                     </h3>
                     <div class="links">
                         <a rel="noopener noreferrer" class="text-center" href="https://www.osteopathiequebec.ca/fr/" target="_blank">
-                            <img src="../../public/assets/OQ.jpg" alt="Logo Osteopathie Quebec">
+                            <img src="../content/assets/OQ.jpg" alt="Logo Osteopathie Quebec">
                             <h5>Ostéopathie Québec</h5>
                         </a>
                     </div>
@@ -56,9 +56,9 @@ export default {
     methods: {
         getPrivacyPolicy: function(){
             if(general.getCookie("site-lang") == "fr"){
-                return "../../public/documents/Politique_de_Confidentialité-Clinique_Roland.pdf";
+                return "../content/documents/Politique_de_Confidentialité-Clinique_Roland.pdf";
             }else {
-                return "../../public/documents/Privacy_Policy-Clinique_Roland.pdf";
+                return "../content/documents/Privacy_Policy-Clinique_Roland.pdf";
             }
         }
     }

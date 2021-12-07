@@ -1,7 +1,7 @@
 [
     {
         "id":"3",
-        "image_link" :"../../public/assets/fleur-lys-quebec.svg",
+        "image_file_name" :"fleur-lys-quebec.svg",
         "fr": {
             "title": "Application obligatoire des taxes (TPS/TVQ) aux services d'ostéopathie",
             "date" : "05/10/2020",
@@ -17,7 +17,7 @@
     },
     {
         "id":"2",
-        "image_link" :"../../public/assets/mesure-de-securite.png",
+        "image_file_name" :"mesure-de-securite.png",
         "fr": {
             "title": "Reprise des activités d’ostéopathie",
             "date" : "24/05/2020",
@@ -33,7 +33,7 @@
     },
     {
         "id":"1",
-        "image_link" :"../../public/assets/stay-home.jpeg",
+        "image_file_name" :"stay-home.jpeg",
         "fr":{
             "title": "Concernant le COVID-19",
             "date" : "16/03/2020",

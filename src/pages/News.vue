@@ -23,7 +23,7 @@
 <script>
   import MainLayout from '../layouts/Main.vue'
   import VueError from "../pages/404.vue";
-  import news from "../../public/news/news.json";
+  import news from "../content/news/news.json";
   import EventBus from '../eventBus';
   import general from '../general';
   
@@ -67,7 +67,7 @@
   .parallax {
   min-height: 200px;
   &.banner2 {
-    background-image: url("../../public/assets/banner1.jpg");
+    background-image: url("../content/assets/banner1.jpg");
     height: 200px;
   }
 }

@@ -17,7 +17,7 @@
           <template v-else>
               <div class="about-phone">
                   <div class="about-image">
-                    <img width="100%" alt="profile pic" src="../../public/assets/photo-profile-2.jpg">
+                    <img width="100%" alt="profile pic" src="../content/assets/photo-profile-2.jpg">
                   </div>
                   <div class="about-text">
                       <h3>{{ $t('general.name') }}</h3>
@@ -59,13 +59,13 @@
 </script>
 
 <style lang="scss" scoped>
-@import "../../public/css/style.scss";
-@import "../../public/css/variables.scss";
+@import "../content/css/style.scss";
+@import "../content/css/variables.scss";
 
 .parallax {
   min-height: 200px;
   &.banner2 {
-    background-image: url("../../public/assets/banner1.jpg");
+    background-image: url("../content/assets/banner1.jpg");
     height: 200px;
   }
 }
@@ -79,7 +79,7 @@
 
   .image-background {
     min-height: 800px;
-    background-image: url("../../public/assets/photo-profile-1.jpg") ;
+    background-image: url("../content/assets/photo-profile-1.jpg") ;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;

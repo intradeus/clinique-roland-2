@@ -14,7 +14,7 @@
 </template>
 
 <style lang="scss" scoped>
-    @import "../../public/css/variables.scss";
+    @import "../content/css/variables.scss";
     .white-banner {
         background-color: #f5f7fa;
         padding: 0.5em 1em;
