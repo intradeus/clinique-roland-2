@@ -7,8 +7,10 @@
     "dev": "cross-env NODE_ENV=development webpack serve --progress",
     "build": "cross-env NODE_ENV=production webpack --progress",
     "predeploy": "npm run build",
-    "deploy": "",
-    "start": "node server.js"
+    "start": "node server.js",
+    "docker-build": "docker build . -t registry.loutre.me/clinique-roland-2:latest",
+    "docker-start":"docker stop clinique-roland && docker rm clinique-roland && docker run -d --name clinique-roland -p 5000:5000 registry.loutre.me/clinique-roland-2:latest",
+    "docker-deploy":"docker login registry.loutre.me && docker push registry.loutre.me/clinique-roland-2:latest"
   },
   "dependencies": {
     "@babel/polyfill": "~7.2",
