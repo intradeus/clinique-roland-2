@@ -11,20 +11,20 @@
         <div class="row">
            <div class="column ml-auto navbar-items">
               <template v-if="!isPhone()">
-                <div class="d-flex flex-row pr-5">
-                    <a :class="[{ active: isActive('/') },'ml-auto', 'nav-item']" href="/">{{ $t('home') }}</a>
-                    <a :class="[{ active: isActive('/about') },  'nav-item']" href="/about">{{ $t('about') }}</a>
-                    <a :class="[{ active: isActive('/reservation') }, 'nav-item']" href="/reservation">{{ $t('booking') }}</a>
-                    <a :class="[{ active: isActive('/contact') }, 'nav-item']" href="/contact">{{ $t('contact') }}</a>
+                <div class="d-flex flex-row pr-5 navigation">
+                    <router-link class="ml-auto nav-item" to="/">{{ $t('home') }}</router-link>
+                    <router-link class="ml-auto nav-item" to="/about">{{ $t('about') }}</router-link>
+                    <router-link class="ml-auto nav-item" to="/reservation">{{ $t('booking') }}</router-link>
+                    <router-link class="ml-auto nav-item" to="/contact">{{ $t('contact') }}</router-link>
                     <a class="nav-item language-change" v-on:click.prevent="changeLanguage()">{{otherLanguage}}</a>
                 </div>
               </template>
               <template v-else>
-                <slide right>
-                    <a :class="[{ active: isActive('/') },'overlay-menu']" href="/">{{ $t('home') }}</a>
-                    <a :class="[{ active: isActive('/about') },'overlay-menu']" href="/about">{{ $t('about') }}</a>
-                    <a :class="[{ active: isActive('/reservation') },'overlay-menu']" href="/reservation">{{ $t('booking') }}</a>
-                    <a :class="[{ active: isActive('/contact') },'overlay-menu']" href="/contact">{{ $t('contact') }}</a>
+                <slide right noOverlay>
+                    <router-link to="/"><span class="overlay-menu" >{{ $t('home') }}</span></router-link>
+                    <router-link to="/about"><span class="overlay-menu" >{{ $t('about') }}</span></router-link>
+                    <router-link to="/reservation"><span class="overlay-menu" >{{ $t('booking') }}</span></router-link>
+                    <router-link to="/contact"><span class="overlay-menu" >{{ $t('contact') }}</span></router-link>
                     <a class="overlay-menu language-change" v-on:click.prevent="changeLanguage()">{{otherLanguage}}</a>
                 </slide>
               </template>
@@ -53,8 +53,6 @@
      created() {
         window.addEventListener('resize', this.handleResize);
         this.handleResize();
-        console.log("created");
-        console.log("test : " +  general.getCookie("site-lang"));
         if(general.getCookie("site-lang") == "fr"){
           this.$i18n.locale = 'fr';
           this.otherLanguage = "English";
@@ -74,15 +72,6 @@
         window.removeEventListener('resize', this.handleResize);
     },
     methods: {
-      go (event) {
-        event.preventDefault()
-        this.$root.currentRoute = this.href
-        window.history.pushState(
-          null,
-          routes[this.href],
-          this.href
-        )
-      },
       handleResize () {
             this.width = window.innerWidth;
       },
@@ -168,7 +157,7 @@
     cursor: pointer;
   }
 
-  .active {
+  .router-link-exact-active {
     color: #7B6572 !important;
     border-top : 1px solid #7B6572;
     border-bottom : 1px solid #7B6572;
@@ -208,7 +197,6 @@
       margin-left : 6px;
       padding-left : 15px;
   }
-  
   
 </style>
 

@@ -1,10 +1,10 @@
 <template>
  <div v-if="actualNews != null">
     <main-layout>
-      <div class="parallax banner2 text-center">
+      <div id="new" class="parallax banner2 text-center">
         <h3 class="title">{{ $t('news.title') }}</h3>
       </div>
-      <div id="new" class="container bluebox pt-4 pb-4">
+      <div class="container bluebox pt-4 pb-4">
         <div class="text-center mb-4">
           <img :src="actualNewsImage" alt="news logo">
         </div>
@@ -49,14 +49,13 @@
     },
     methods: {
       setNewsAccordingToLanguage: function(){
-        var queryParam = new URLSearchParams(window.location.search);
-        var newsId = queryParam.get('id');
+        var newsId = this.$route.params.id;
         var context = this;
         var lang = general.getCookie("site-lang") == "" ? "fr" : general.getCookie("site-lang");
         this.newsList.forEach(n => {
           if(n.id == newsId){
             context.actualNews = eval("n." + lang);
-            context.actualNewsImage = n.image_link;
+            context.actualNewsImage = 'src/content/assets/' + n.image_file_name;
           }
         });
       }

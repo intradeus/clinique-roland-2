@@ -675,7 +675,7 @@
           <p>
             {{$t('error404.msg')}}
           </p>
-          <a href="/" class="btn btn-outline-secondary">{{$t('error404.button')}}</a>
+          <router-link class="btn btn-outline-secondary" to="/">{{$t('error404.button')}}</router-link>
         </div>
       </div>
     </div>

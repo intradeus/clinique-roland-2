@@ -10,7 +10,7 @@
             v-bind:key="dataNew.id"
             class="news-container"
           >
-            <a :href="'/news?name=' + dataNew.slug + '&id=' + dataNew.id + '#new'">
+            <router-link :to=" { path:'/news/'+ dataNew.id + '?name=' + dataNew.slug, hash: '#news'}">
               <div class="row">
                 <div class="col-md-3 col-xs-3 text-center news-image-container">
                   <img
@@ -27,7 +27,7 @@
                   <p class="news-content note-pre">{{ dataNew.content }}</p>
                 </div>
               </div>
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
