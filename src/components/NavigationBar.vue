@@ -1,12 +1,12 @@
 <template>
     <div class="content">
         <div class="container">
-              <a href="/" class="logo">
+              <router-link to="/" class="logo">
                 <div class="logo" id="logo">
                     <h1>{{ $t('titlep1') }}</h1>
                     <h1>{{ $t('titlep2') }}</h1>
                 </div>
-              </a>  
+              </router-link>  
         </div>
         <div class="row">
            <div class="column ml-auto navbar-items">
@@ -157,7 +157,7 @@
     cursor: pointer;
   }
 
-  .router-link-exact-active {
+  .router-link-exact-active:not(.logo) {
     color: #7B6572 !important;
     border-top : 1px solid #7B6572;
     border-bottom : 1px solid #7B6572;

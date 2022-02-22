@@ -4,7 +4,6 @@ const webpack                  = require('webpack');
 const merge                    = require('webpack-merge');
 const OptimizeCSSAssetsPlugin  = require('optimize-css-assets-webpack-plugin');
 const MiniCSSExtractPlugin     = require('mini-css-extract-plugin');
-const CompressionPlugin        = require('compression-webpack-plugin');
 const helpers                  = require('./helpers');
 const commonConfig             = require('./webpack.config.common');
 const isProd                   = process.env.NODE_ENV == 'production';

@@ -42,7 +42,7 @@ const translation = {
             info : 'Informations',
         },
         footer2 : {
-            title : '2009-2020, Clinique ostéopathique Christophe Roland'
+            title : '2009-2022, Clinique ostéopathique Christophe Roland'
         },
         aboutObject : {
             part1 : 'My experience, my dedication to my work and my thorough knowledge of anatomy guarantee the depth and precision of my care. I am responsive to everyone\’s needs and expectations, promoting tailored treatments to each of my patients: no pain is the same, for each patient is unique. I take care of patients of various ages - from early childhood to adulthood, including adolescence. I am accustomed to treating postural disorders, pregnancy, low-back pain, sciatica, headaches, dizziness, etc.', 
@@ -128,7 +128,7 @@ const translation = {
             info : 'Informations',
         },
         footer2 : {
-            title : '2009-2020, Clinique ostéopathique Christophe Roland'
+            title : '2009-2022, Clinique ostéopathique Christophe Roland'
         },
         aboutObject : {
             part1 : 'Fort de 27 années d\’expérience, ma passion pour mon métier et ma grande connaissance de l\’anatomie garantissent la profondeur et la justesse de mes soins. Je suis à l\’écoute des besoins et attentes de chacun, partisan d\’un traitement sur-mesure : aucune douleur n\’est la même, car chaque patient est unique. Je m\’adresse à une clientèle diverse et variée, tant en termes d\’âge – de la petite enfance à l\’âge adulte, en passant par l\’adolescence – que de motifs de consultation – maux de dos, maux de cou, tendinites, troubles posturaux, grossesse, post-partum, troubles gynéco-urinaires, troubles digestifs, maux de tête, vertiges…', 

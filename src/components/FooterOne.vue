@@ -56,9 +56,9 @@ export default {
     methods: {
         getPrivacyPolicy: function(){
             if(general.getCookie("site-lang") == "fr"){
-                return "../content/documents/Politique_de_Confidentialité-Clinique_Roland.pdf";
+                return require("@/content/documents/Politique_de_Confidentialité-Clinique_Roland.pdf");
             }else {
-                return "../content/documents/Privacy_Policy-Clinique_Roland.pdf";
+                return require("@/content/documents/Privacy_Policy-Clinique_Roland.pdf");
             }
         }
     }

@@ -31,30 +31,17 @@ const webpackConfig = {
                 include: [ helpers.root('src') ]
             },
             {
-                test: /\.css$/,
+                test: /\.(sa|sc|c)ss$/i,
                 use: [
                     isDev ? 'vue-style-loader' : MiniCSSExtractPlugin.loader,
                     { loader: 'css-loader', options: { sourceMap: isDev } },
-                ]
-            },
-            {
-                test: /\.scss$/,
-                use: [
-                    isDev ? 'vue-style-loader' : MiniCSSExtractPlugin.loader,
-                    { loader: 'css-loader', options: { sourceMap: isDev } },
+                    { loader: 'postcss-loader', options: { sourceMap: isDev } },
                     { loader: 'sass-loader', options: { sourceMap: isDev } }
+
                 ]
             },
             {
-                test: /\.sass$/,
-                use: [
-                    isDev ? 'vue-style-loader' : MiniCSSExtractPlugin.loader,
-                    { loader: 'css-loader', options: { sourceMap: isDev } },
-                    { loader: 'sass-loader', options: { sourceMap: isDev } }
-                ]
-            },
-            {
-                test: /\.(jpe?g|png|gif|woff|woff2|eot|ttf|svg|mp4)(\?[a-z0-9=.]+)?$/,
+                test: /\.(jpe?g|png|gif|woff|woff2|eot|ttf|svg|mp4|pdf)(\?[a-z0-9=.]+)?$/,
                 loader: 'file-loader',
                 options: {
                     esModule: false
