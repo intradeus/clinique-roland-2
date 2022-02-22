@@ -6,7 +6,7 @@
       <div class="container">
         <p class="attention-message text-center">
           {{ $t('bookingObject.warningp1') }} 
-          <router-link class="hyperlink" to="/news?name=reprise-des-activites-d-osteopathie&id=2">{{ $t('bookingObject.warningp2') }}</router-link>
+          <router-link class="hyperlink" to="/news/2?name=reprise-des-activites-d-osteopathie">{{ $t('bookingObject.warningp2') }}</router-link>
            {{ $t('bookingObject.warningp3') }}
         </p>
 

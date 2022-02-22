@@ -15,7 +15,7 @@
                 <div class="col-md-3 col-xs-3 text-center news-image-container">
                   <img
                     class="news-image"
-                    :src="'src/content/assets/' + dataNew.image_file_name"
+                    :src="require('@/content/assets/' + dataNew.image_file_name)"
                     alt="news image"
                   />
                 </div>

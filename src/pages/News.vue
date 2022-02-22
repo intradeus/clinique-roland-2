@@ -1,12 +1,12 @@
 <template>
- <div v-if="actualNews != null">
+ <div v-if="actualNews != null && actualNewsImage != ''">
     <main-layout>
       <div id="new" class="parallax banner2 text-center">
         <h3 class="title">{{ $t('news.title') }}</h3>
       </div>
       <div class="container bluebox pt-4 pb-4">
         <div class="text-center mb-4">
-          <img :src="actualNewsImage" alt="news logo">
+          <img :src="newsImage()" alt="news logo">
         </div>
         <hr>
         <h2 class="mb-3">{{actualNews.title}}</h2>
@@ -55,9 +55,15 @@
         this.newsList.forEach(n => {
           if(n.id == newsId){
             context.actualNews = eval("n." + lang);
-            context.actualNewsImage = 'src/content/assets/' + n.image_file_name;
+            context.actualNewsImage = n.image_file_name;
           }
         });
+      },
+      newsImage() {
+        if (!this.actualNewsImage) {
+          return
+        }
+        return require(`../content/assets/${this.actualNewsImage}`) // the module request
       }
     }
   }

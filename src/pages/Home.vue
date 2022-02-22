@@ -29,7 +29,7 @@
         <div>
           <h6 style="line-height: 2"><u>{{ $t('homeObject.about.val1') }}</u></h6>
           <h6 style="line-height: 2">{{ $t('homeObject.about.val2') }}</h6>
-          <h6 style="line-height: 2">{{ $t('homeObject.about.val3') }}<strong><router-link class="tax-href" to="/news?name=application-obligatoire-des-taxes-aux-services-d-osteopathie&id=3#news">+ taxes <font-awesome-icon icon="info-circle"/></router-link></strong></h6>
+          <h6 style="line-height: 2">{{ $t('homeObject.about.val3') }}<strong><router-link class="tax-href" to="/news/3?name=application-obligatoire-des-taxes-aux-services-d-osteopathie">+ taxes <font-awesome-icon icon="info-circle"/></router-link></strong></h6>
           <h6 style="line-height: 2">
             {{ $t('homeObject.about.val4') }}
           </h6>
@@ -193,6 +193,14 @@ a {
   &.banner2 {
     background-image: url("../content/assets/banner2.jpg");
   }
+}
+
+.banner {
+    background: url("../content/assets/banner1.jpg");
+    background-size: cover;
+    max-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat
 }
 
 </style>
