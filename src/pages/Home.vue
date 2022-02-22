@@ -6,7 +6,8 @@
         <p class="banner-content">
           {{ $t('homeObject.subtitle') }}
         </p>
-        <a href="/reservation" type="button" class="reserve-button draw-border white mb-5">{{ $t('homeObject.reserve') }} <font-awesome-icon icon="angle-right" :style="{ color: 'white' }"/></a>
+        
+        <router-link to="/reservation" type="button" class="reserve-button draw-border white mb-5">{{ $t('homeObject.reserve') }} <font-awesome-icon icon="angle-right" :style="{ color: 'white' }"/></router-link>
         <a href="#feedback" class="stars-button">
           <h4 >
             <template v-for="s in stars">
@@ -28,7 +29,7 @@
         <div>
           <h6 style="line-height: 2"><u>{{ $t('homeObject.about.val1') }}</u></h6>
           <h6 style="line-height: 2">{{ $t('homeObject.about.val2') }}</h6>
-          <h6 style="line-height: 2">{{ $t('homeObject.about.val3') }}<strong><a class="tax-href" href="/news?name=application-obligatoire-des-taxes-aux-services-d-osteopathie&id=3">+ taxes <font-awesome-icon icon="info-circle"/></a></strong></h6>
+          <h6 style="line-height: 2">{{ $t('homeObject.about.val3') }}<strong><router-link class="tax-href" to="/news/3?name=application-obligatoire-des-taxes-aux-services-d-osteopathie">+ taxes <font-awesome-icon icon="info-circle"/></router-link></strong></h6>
           <h6 style="line-height: 2">
             {{ $t('homeObject.about.val4') }}
           </h6>
@@ -192,6 +193,14 @@ a {
   &.banner2 {
     background-image: url("../content/assets/banner2.jpg");
   }
+}
+
+.banner {
+    background: url("../content/assets/banner1.jpg");
+    background-size: cover;
+    max-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat
 }
 
 </style>

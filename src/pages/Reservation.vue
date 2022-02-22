@@ -6,12 +6,12 @@
       <div class="container">
         <p class="attention-message text-center">
           {{ $t('bookingObject.warningp1') }} 
-          <a class="hyperlink" href="/news?name=reprise-des-activites-d-osteopathie&id=2">{{ $t('bookingObject.warningp2') }}</a>
+          <router-link class="hyperlink" to="/news/2?name=reprise-des-activites-d-osteopathie">{{ $t('bookingObject.warningp2') }}</router-link>
            {{ $t('bookingObject.warningp3') }}
         </p>
 
-         <h6 class="msg" >{{ $t('bookingObject.msgp5') }}<a href="/tutorial"
-              target="_self">{{ $t('bookingObject.msgp6') }}</a>
+         <h6 class="msg" >{{ $t('bookingObject.msgp5') }}
+           <router-link to="/tutorial">{{ $t('bookingObject.msgp6') }}</router-link>
         </h6>
       </div>
       <div class="container apt-script">
@@ -22,8 +22,8 @@
               <div id="square-appointment-script" class="script"></div>
           </div>
         <h6 class="msg policy-msg" >{{ $t('bookingObject.msgp1') }}<a :href="getPrivacyPolicy()"
-              target="_blank">{{ $t('bookingObject.msgp2') }}</a> {{ $t('bookingObject.msgp3') }} <a
-              href="/annulation#annulation" target="_self">{{ $t('bookingObject.msgp4') }}</a>
+              target="_blank">{{ $t('bookingObject.msgp2') }}</a> {{ $t('bookingObject.msgp3') }} <router-link
+              to="/annulation#annulation">{{ $t('bookingObject.msgp4') }}</router-link>
         </h6>
       </div>
   </main-layout>
@@ -45,9 +45,9 @@
     methods: {
       getPrivacyPolicy: function(){
             if(general.getCookie("site-lang") == "fr"){
-                return "../content/documents/Politique_de_Confidentialité-Clinique_Roland.pdf";
+                return require("@/content/documents/Politique_de_Confidentialité-Clinique_Roland.pdf");
             }else {
-                return "../content/documents/Privacy_Policy-Clinique_Roland.pdf";
+                return require("@/content/documents/Privacy_Policy-Clinique_Roland.pdf");
             }
       },
       hideSpinnerShowScript: function(){
