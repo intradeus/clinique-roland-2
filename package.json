@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --progress",
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "cross-env NODE_ENV=production webpack --progress",
     "predeploy": "npm run build",
     "deploy": "",
     "start": "node server.js"
@@ -38,8 +38,9 @@
     "@babel/plugin-syntax-import-meta": "~7.2",
     "@babel/preset-env": "~7.3",
     "babel-loader": "~8.0",
+    "copy-webpack-plugin": "^6.4.1",
     "cross-env": "^4.0.0",
-    "css-loader": "^5.2.7",
+    "css-loader": "^3.6.0",
     "file-loader": "^6.2.0",
     "friendly-errors-webpack-plugin": "~1.7",
     "html-webpack-plugin": "~3.2",

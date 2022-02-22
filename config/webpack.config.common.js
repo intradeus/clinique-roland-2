@@ -37,7 +37,6 @@ const webpackConfig = {
                     { loader: 'css-loader', options: { sourceMap: isDev } },
                     { loader: 'postcss-loader', options: { sourceMap: isDev } },
                     { loader: 'sass-loader', options: { sourceMap: isDev } }
-
                 ]
             },
             {
@@ -51,8 +50,10 @@ const webpackConfig = {
     },
     plugins: [
         new VueLoaderPlugin(),
-        new HtmlPlugin({ template: 'index.html', chunksSortMode: 'dependency' })
+        new HtmlPlugin({
+            template: 'index.html',
+            chunksSortMode: 'dependency'
+        })
     ]
 };
-
 module.exports = webpackConfig;
