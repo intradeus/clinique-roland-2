@@ -24,7 +24,7 @@ const translation = {
                 title : 'About your appointment',
                 val1 : 'Mask required',
                 val2: 'Duration : 45 minutes',
-                val3 : 'Price : 110$',
+                val3 : 'Price : 130$',
                 val4 : 'Method of payment: Interac, debit, cash, check.',
                 val5 : 'Please see our ',
             }
@@ -110,7 +110,7 @@ const translation = {
                 title : 'À propos de votre rendez-vous',
                 val1 : 'Masque obligatoire',
                 val2: 'Durée : 45 minutes.',
-                val3 : 'Prix : 110$',
+                val3 : 'Prix : 130$',
                 val4 : 'Mode de paiement : Interac, débit, espèces, chèque.',
                 val5 : 'Veuillez consulter notre ',
             }

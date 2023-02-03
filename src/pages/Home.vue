@@ -29,7 +29,7 @@
         <div>
           <h6 style="line-height: 2"><u>{{ $t('homeObject.about.val1') }}</u></h6>
           <h6 style="line-height: 2">{{ $t('homeObject.about.val2') }}</h6>
-          <h6 style="line-height: 2">{{ $t('homeObject.about.val3') }}<strong><router-link class="tax-href" to="/news/3?name=application-obligatoire-des-taxes-aux-services-d-osteopathie">+ taxes <font-awesome-icon icon="info-circle"/></router-link></strong></h6>
+          <h6 style="line-height: 2">{{ $t('homeObject.about.val3') }}<strong><router-link class="tax-href" to="/news/3?name=application-obligatoire-des-taxes-aux-services-d-osteopathie"> (taxes incl.) <font-awesome-icon icon="info-circle"/></router-link></strong></h6>
           <h6 style="line-height: 2">
             {{ $t('homeObject.about.val4') }}
           </h6>
