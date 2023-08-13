@@ -22,9 +22,9 @@ const translation = {
             reserve : 'Reserve',
             about: {
                 title : 'About your appointment',
-                val1 : 'Mask required',
                 val2: 'Duration : 45 minutes',
                 val3 : 'Price : 130$',
+                val35: 'Electronic receipts available for insurance purposes',
                 val4 : 'Method of payment: Interac, debit, cash, check.',
                 val5 : 'Please see our ',
             }
@@ -45,7 +45,7 @@ const translation = {
             title : '2009-2022, Clinique ostéopathique Christophe Roland'
         },
         aboutObject : {
-            part1 : 'My experience, my dedication to my work and my thorough knowledge of anatomy guarantee the depth and precision of my care. I am responsive to everyone\’s needs and expectations, promoting tailored treatments to each of my patients: no pain is the same, for each patient is unique. I take care of patients of various ages - from early childhood to adulthood, including adolescence. I am accustomed to treating postural disorders, pregnancy, low-back pain, sciatica, headaches, dizziness, etc.', 
+            part1 : 'My 30 years of experience, my dedication to my work and my thorough knowledge of anatomy guarantee the depth and precision of my care. I am responsive to everyone\’s needs and expectations, promoting tailored treatments to each of my patients: no pain is the same, for each patient is unique. I take care of patients of various ages - from early childhood to adulthood, including adolescence. I am accustomed to treating postural disorders, pregnancy, low-back pain, sciatica, headaches, dizziness, etc.', 
             part2 : 'After 12 years working as a kinesitherapist, I obtained my Osteopathy Diploma in France, in 2005. I have been a member of Ostéopathie Québec since 2007 and keep on improving my expertise by attending trainings and seminars regularly, on such topics as paediatrics, endocrinology or nutrition.'
         },
         bookingObject : {
@@ -108,9 +108,9 @@ const translation = {
             reserve : 'Réserver',
             about: {
                 title : 'À propos de votre rendez-vous',
-                val1 : 'Masque obligatoire',
                 val2: 'Durée : 45 minutes.',
                 val3 : 'Prix : 130$',
+                val35: 'Émission de reçu électronique disponible pour les assurances.', 
                 val4 : 'Mode de paiement : Interac, débit, espèces, chèque.',
                 val5 : 'Veuillez consulter notre ',
             }
@@ -131,7 +131,7 @@ const translation = {
             title : '2009-2022, Clinique ostéopathique Christophe Roland'
         },
         aboutObject : {
-            part1 : 'Fort de 27 années d\’expérience, ma passion pour mon métier et ma grande connaissance de l\’anatomie garantissent la profondeur et la justesse de mes soins. Je suis à l\’écoute des besoins et attentes de chacun, partisan d\’un traitement sur-mesure : aucune douleur n\’est la même, car chaque patient est unique. Je m\’adresse à une clientèle diverse et variée, tant en termes d\’âge – de la petite enfance à l\’âge adulte, en passant par l\’adolescence – que de motifs de consultation – maux de dos, maux de cou, tendinites, troubles posturaux, grossesse, post-partum, troubles gynéco-urinaires, troubles digestifs, maux de tête, vertiges…', 
+            part1 : 'Fort de 30 années d\’expérience, ma passion pour mon métier et ma grande connaissance de l\’anatomie garantissent la profondeur et la justesse de mes soins. Je suis à l\’écoute des besoins et attentes de chacun, partisan d\’un traitement sur-mesure : aucune douleur n\’est la même, car chaque patient est unique. Je m\’adresse à une clientèle diverse et variée, tant en termes d\’âge – de la petite enfance à l\’âge adulte, en passant par l\’adolescence – que de motifs de consultation – maux de dos, maux de cou, tendinites, troubles posturaux, grossesse, post-partum, troubles gynéco-urinaires, troubles digestifs, maux de tête, vertiges…', 
             part2: 'Après 12 ans de pratique en massokinésithérapie, j\’exerce en tant qu\’ostéopathe depuis l\’obtention de mon diplôme en France, en 2006. Je suis depuis 2007, date de mon installation à Montréal, membre d\’Ostéopathie Québec (anciennement nommé Registre des Ostéopathes du Québec). Je continue à forger mon expertise en participant régulièrement à des stages, séminaires et formations, notamment sur les thèmes de la pédiatrie, de l\’endocrinologie et de la nutrition.'
         },
         bookingObject : {

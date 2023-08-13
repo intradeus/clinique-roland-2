@@ -4,12 +4,13 @@
         <h3 class="title">{{ $t('booking') }}</h3>
       </div>
       <div class="container">
-        <p class="attention-message text-center">
+        <!--
+          <p class="attention-message text-center">
           {{ $t('bookingObject.warningp1') }} 
           <router-link class="hyperlink" to="/news/2?name=reprise-des-activites-d-osteopathie">{{ $t('bookingObject.warningp2') }}</router-link>
            {{ $t('bookingObject.warningp3') }}
         </p>
-
+        -->
          <h6 class="msg" >{{ $t('bookingObject.msgp5') }}
            <router-link to="/tutorial">{{ $t('bookingObject.msgp6') }}</router-link>
         </h6>
@@ -122,7 +123,8 @@ p {
 
 .msg {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-top: 25px;
 
   &.policy-msg {
     font-size: 12px;
